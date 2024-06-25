@@ -1,0 +1,39 @@
+
+.Section_top{
+  
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../assets/bagroundimg/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(../assets/bagroundimg/bg1.jpg);
+    }
+    20%
+    {
+        background-image: url(../assets/bagroundimg/bg2.jpg);
+    }
+    40%
+    {
+        background-image: url(../assets/bagroundimg/bg3.jpg);
+    }
+    60%
+    {
+        background-image: url(../assets/bagroundimg/bg4.jpg);
+    }
+  
+}
+
+h2{
+   color: red;
+}
